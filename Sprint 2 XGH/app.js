@@ -15,9 +15,9 @@ var dicas = []
 
 app.get("/", (req, res) => {
     res.send(`<h3>Olá! Bem vindo a aplicação Dev Random Tips.</h3> 
-    <p>Para inseir dicas click <a href="http://localhost:3000/create"> aqui </a> e retorne ao seu prompt </p>
+    <p>Para inseir dicas click <a href="http://localhost:3001/create"> aqui </a> e retorne ao seu prompt </p>
     <p>Digite suas dica, uma por vez, e aperte Enter.</p>
-    <p>Para encerrar digite sair e click <a href="http://localhost:300/tip"> aqui </a> para receber sua dica aleatória.</p>`)
+    <p>Para encerrar digite sair e click <a href="http://localhost:3001/tip"> aqui </a> para receber sua dica aleatória.</p>`)
 });
 
 app.get("/create", () => {

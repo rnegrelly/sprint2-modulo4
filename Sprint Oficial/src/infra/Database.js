@@ -1,14 +1,7 @@
+//criação do banco de dados ficticio que receberá as dicas e armazenará em array
+
 export const Database = {
 
-    Dicas: [
-        {
-            "dica": "beber bem"
-        },
-        {
-            "dica": "dormir bem"
-        },
-        {
-            "dica": "correr bem"
-        }
-    ]
+    Dicas: []
+
 }
